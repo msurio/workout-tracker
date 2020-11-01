@@ -1,5 +1,5 @@
 // requires
-const router = require("express").Router();
+const routes = require("express").Router();
 const path = require("path");
 
 // routes
@@ -12,4 +12,4 @@ router.get("/stats", (req, res) => {
 });
 
 //export
-module.exports = router;
+module.exports = routes;
